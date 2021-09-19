@@ -11,3 +11,6 @@
 * JavaScript
 * Git and GitHub
 * Command line
+
+#### Completed Project:
+I decided to make this a positive affirmation generator. The message consists of three randomly generated messages that start with "I am", "I can", and "I will", respectively.

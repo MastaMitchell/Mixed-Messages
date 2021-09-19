@@ -14,11 +14,9 @@ const messageFactory = (set1, set2, set3) => {
     
         displayMessages () {
             messages = this.generateMessages();
-            console.log(`${messages._message1}\n\n${messages._message2}\n\n${messages._message3}`)
+            console.log(`${messages._message1}\n\n${messages._message2}\n\n${messages._message3}`);
         }
-    }
-
-    
+    } 
 }
 
 const iAm = ["I am successful.", "I am confident.", "I am powerful.", "I am strong.", "I am getting better and better every day."];
@@ -28,5 +26,4 @@ const iWill = ["I will be kind to myself.", "I will be kind to others.", "I will
 const iCan = ["I can do hard things.", "I can do anything I put my mind to.", "I can change the world.", "I can create my life the way I want it.", "I can learn anything."];
 
 positiveAffirmations = messageFactory(iAm, iCan, iWill);
-
 positiveAffirmations.displayMessages();
